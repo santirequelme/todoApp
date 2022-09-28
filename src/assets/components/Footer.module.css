@@ -1,0 +1,14 @@
+footer {
+  background: var(--gray-700);
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height:3rem;
+}
+.footer span{
+  display: flex;
+  justify-content: center;
+  font-size: 0.75rem;
+  opacity:0.5;
+  padding: 1rem;
+}

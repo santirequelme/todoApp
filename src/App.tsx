@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Footer } from './assets/components/Footer';
 import { Header } from './assets/components/Header';
 import { Tasks } from './assets/components/Tasks';
 import "./global.css";
@@ -65,6 +66,7 @@ function toggleIsCompletedByID(taskId: string){
         tasks={tasks}
         onDelete={deleteTaskById}
         onComplete={toggleIsCompletedByID}/>
+      < Footer />  
     </div>
   )
 }
